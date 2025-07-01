@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: justify;
+}
+
+nav {
+    background-color: lightseagreen;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #c9e4ff;
+}
+
+main {
+    padding: 2rem;
+    margin-left: 450px;
+}
+
+h1 {
+    color: hotpink;
+}
+
+.container {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.levo {
+    width: 30%;
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    align-content: start;
+}
+
+.desno {
+    width: 70%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.desno-gore {
+    height: 20%;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.desno-dole {
+    height: 80%;
+    background-color: beige;
+    padding: 30px;
+}
+
+.slika img  {
+    height: 300px;
+    width: 176.5px;
+    border-radius: 30%;
+    padding: 5px;
+    border-color: black;
+}
+
+.desno-dole2 {
+    height: 100%;
+    background-color: beige;
+    padding: 30px;
+}
+
+
+.levo-desno {
+    width: 30%;
+    background-color: #9f8c7c;
+    color: white;
+    padding: 20px;
+    align-content: start;
+}
+
+.desno-levo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: steelblue;
+}
+
+h4 {
+    color:forestgreen;
+}
+
+.slika2 img {
+    width:313px;
+    height:242px;
+    border-radius:0px;
+    margin-left:20px;
+}
+
+.slika3 img {
+    width:234px;
+    height:193px;
+    border-radius:0px;
+    margin-left:50px;
+}
+
+.slika4 img {
+    width:204px;
+    height:204px;
+    border-radius:0px;
+    margin-left:70px;
+}
+
+.slika5 img {
+    width:313px;
+    height:242px;
+    border-radius:0px;
+    margin-left:25px;
+}
+
+.slika6 img {
+    width:285px;
+    height:142px;
+    border-radius:0px;
+    margin-left:40px;
+}
+
+.slika7 img {
+    width:270px;
+    height:180px;
+    border-radius:0px;
+    margin-left:50px;
+}
+
+
+.slika8 img {
+    width:168px;
+    height:252px;
+    border-radius:0px;
+    margin-left:70px;
+}
+
+.slika9 img {
+    width:216px;
+    height:184px;
+    border-radius:0px;
+    margin-left:60px;
+}
+
+.slika10 img {
+    width:270px;
+    height:180px;
+    border-radius:0px;
+    margin-left:50px;
+}
